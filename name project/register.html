@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="register.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navhome">
+        <div class="container-fluid">
+          <!-- font awesom icons -->
+          <i class="fa-solid fa-user-tie"></i>
+          <!-- name -->
+          <a class="navbar-brand" href="#"><h1>Names</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto"    >
+              <li class="nav-item "      >
+                <!--home-->
+                <a class="nav-link navhom"  href="home.html">Home</a>
+              </li>
+              
+            </ul>
+            <!-- login -->
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                  <a class="nav-link navlog"  href="login.html">login </a>
+                </li>
+                
+              </ul>
+              <!-- register -->
+              <ul class="navbar-nav ">
+                <li class="nav-item">
+                  <a class="nav-link navreg"  href="register.html">register</a>
+                </li>
+                
+              </ul>
+            
+          </div>
+        </div>
+     </nav>
+     <!-- regsiter form -->
+<div class="form1">
+  <h1>REGISTER FORM</h1>
+     <form>
+      <div class="mb-3  fname1">
+        <label for="fname" class="form-label">   firstname :</label>
+        <input type="text" class="form-control" id="fname" aria-describedby="emailHelp">
+        
+      </div>
+      <div class="mb-3">
+        <label for="lname" class="form-label">lastname :</label>
+        <input type="text" class="form-control" id="lname">
+      </div>
+      <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address :</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        
+        </div>
+        <div class="mb-3">
+          <label for="phoneno" class="form-label">phone number :</label>
+          <input type="text" class="form-control" id="phoneno">
+        </div>
+
+      
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+
+</div>
+
+     
+</body>
+</html>

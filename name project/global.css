@@ -1,0 +1,104 @@
+/* total div */
+.navhome{
+
+background-color: cyan;
+    
+    
+}
+/* name header */
+.navbar-brand h1 {
+font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left: 10px;
+}
+ .navbar-brand{
+ 
+ font-size: 100%;
+ 
+ }
+ .navhom{
+    
+ margin-right: 150px;
+ 
+ font-size: large;
+ color:chartreuse;
+ 
+ 
+ }
+ .navlog{
+ 
+    margin-right: 100px;
+    width: 100%;
+    font-size: large;
+ 
+ }
+ .navreg{
+ 
+ 
+    
+    font-size: large;
+ }
+ 
+  
+  .navbar i{
+ 
+ margin-left:100px;
+ font-size: 20px;
+ color: darkviolet;
+ }
+  
+ 
+ .navbar a{
+ 
+ color:crimson;
+ 
+ }
+ 
+ .cardname{
+
+
+   margin-top: 10%;
+   width: 40%;
+   margin-left: 175px;
+ }
+ 
+ .cardbody{
+  
+  
+  box-sizing: border-box;
+
+  border-radius:15px;
+
+ }
+ input[type=text]
+ {
+   width:80%;
+   
+   border-color:lightseagreen;
+   
+   
+ }
+ h3{
+ 
+  color:coral;
+
+ }
+
+ .card{
+   border-radius:45px ;
+   border-color: darkcyan;
+ }
+.form-control{
+  border-radius: 50px;
+}
+button{
+  margin-top:15px;
+  border-radius:18px ;
+  border-color: forestgreen;
+}
+.form-label{
+  color:limegreen;
+}
+ 
+ 
+ 
